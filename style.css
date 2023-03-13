@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.main {
+    background: #dca315;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    overflow: hidden;
+    height: 360px;
+}
+
+.main1,
+.main3 {
+    background: #000000;
+    height: 34%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main2 {
+    background-color: #dca315;
+    height: 32%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+}
+
+.main2one,
+.main2three {
+    background: black;
+    width: 25%;
+    height: 100%;
+    
+}
+
+
+.main2two {
+    background-color: #dca315;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main2one {
+    border-radius: 0% 65% 30% 0%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.main2one1 {
+    height: 70%;
+    background: rgba(0, 0, 0, 0);
+    
+}
+
+.main2one2 {
+    height: 30%;
+    background: rgb(0, 0, 0);
+
+}
+
+.main2three {
+    border-radius: 65% 0% 0% 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main2three1 {
+    height: 70%;
+    background: rgba(0, 0, 0, 0);
+}
+
+
+
+.main2three2 {
+    height: 30%;
+    background: rgb(0, 0, 0);
+}
+
+.main2two1 {
+    height: 60%;
+    background-color: #dca315;
+    display: flex;
+    overflow: hidden;
+}
+
+.main2two1one,
+.main2two1three {
+    width: 30%;
+    height: 100%;
+}
+
+.main2two1two {
+    background: #dca315;
+    width: 40%;
+    height: 55%;
+    overflow: hidden;
+    display: flex;
+}
+
+.main2two1two1,
+.main2two1two3 {
+    width: 36%;
+    background: rgb(0, 0, 0);
+    height: 100%;
+}
+
+.main2two1two1 {
+    border-radius: 0% 0% 0% 40%;
+}
+
+.main2two1two3 {
+    border-radius: 0% 0% 40% 0%;
+}
+
+.main2two1two2 {
+    width: 28%;
+    background: #000000;
+    height: 100%;
+}
+
+.head {
+    width: 100%;
+    height: 30%;
+    background: #000;
+}
+
+.neck {
+    width: 100%;
+    height: 70%;
+    background: #dca315;
+    border-radius: 30% 30% 0% 0%;
+    position: relative;
+}
+
+.shing1 {
+    background: #dca315;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    position: absolute;
+    left: -5px;
+    top: -9px;
+}
+
+.shing2 {
+    background: #dca315;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    position: absolute;
+    right: -5px;
+    top: -9px;
+}
+
+
+
+
+.main2two2 {
+    height: 40%;
+    background-color: #dca315;
+    display: flex;
+    align-items: center;
+}
+
+.main2two2one {
+    background: #000000;
+    height: 100%;
+    width: 50%;
+    border-radius: 50% 120% 0% 0%;
+}
+
+.main2two2two {
+    background: #000000;
+    height: 100%;
+    width: 50%;
+    border-radius: 120% 50% 0% 0%;
+}
